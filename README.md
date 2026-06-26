@@ -29,3 +29,23 @@ http://127.0.0.1:8765/index.html
 - `index.html` — page structure and product/specification content.
 - `styles.css` — visual design system, responsive layout, brand mark, and animations.
 - `script.js` — pointer-based 3D card interaction with reduced-motion support.
+
+## Deploy online
+
+This is a static site, so it can be deployed to Vercel, Netlify, Cloudflare Pages, GitHub Pages, or any static host.
+
+### Vercel
+
+1. Import this repository into Vercel.
+2. Use the repository root as the project directory.
+3. Leave the build command empty.
+4. Use `.` as the output directory.
+5. Deploy and open the generated Vercel URL.
+
+### Netlify
+
+1. Import this repository into Netlify.
+2. Use the repository root as the base directory.
+3. Leave the build command empty.
+4. Use `.` as the publish directory.
+5. Deploy and open the generated Netlify URL.
